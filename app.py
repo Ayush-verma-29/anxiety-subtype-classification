@@ -19,11 +19,11 @@ st.set_page_config(
     layout="wide"
 )
 
-#  Optional Safety Check (TEMPORARY)
-st.write(
-    "Secrets loaded:",
-    os.getenv("REDDIT_CLIENT_ID") is not None
-)
+# #  Optional Safety Check (TEMPORARY)
+# st.write(
+#     "Secrets loaded:",
+#     os.getenv("REDDIT_CLIENT_ID") is not None
+# )
 
 reddit = praw.Reddit(
     client_id=os.getenv("REDDIT_CLIENT_ID"),
