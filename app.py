@@ -11,6 +11,14 @@ import umap
 import os
 import praw
 
+# =============================
+# Page config
+# =============================
+st.set_page_config(
+    page_title="Anxiety Subtype Classification Dashboard",
+    layout="wide"
+)
+
 #  Optional Safety Check (TEMPORARY)
 st.write(
     "Secrets loaded:",
@@ -23,13 +31,7 @@ reddit = praw.Reddit(
     user_agent=os.getenv("REDDIT_USER_AGENT")
 )
 
-# =============================
-# Page config
-# =============================
-st.set_page_config(
-    page_title="Anxiety Subtype Classification Dashboard",
-    layout="wide"
-)
+
 
 st.title(" Anxiety Subtype Classification Dashboard")
 
