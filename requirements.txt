@@ -1,0 +1,35 @@
+
+---
+
+# ?? `requirements.txt`
+
+```txt
+# Core
+numpy
+pandas
+scikit-learn
+scipy
+
+# NLP & Transformers
+transformers
+sentence-transformers
+torch
+
+# Reddit API
+praw
+
+# Visualization
+matplotlib
+seaborn
+plotly
+
+# Dashboard
+streamlit
+
+# Utilities
+tqdm
+joblib
+python-dotenv
+
+# Optional (for notebooks / colab)
+ipython
