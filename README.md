@@ -70,15 +70,12 @@ REDDIT_USER_AGENT
 ## 🚀 How to Run the Project
 
 ### 1️⃣ Install dependencies
-```bash
 pip install -r requirements.txt
 
 
 ### 2️⃣ Run data collection and modeling
-```bash
 python lets_do_it.py
 
 
 ### 3️⃣ Launch Streamlit dashboard
-```bash
 streamlit run app.py
