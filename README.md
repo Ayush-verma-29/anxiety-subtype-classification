@@ -74,7 +74,7 @@ REDDIT_USER_AGENT
 pip install -r requirements.txt
 
 ```bash
-### 2️⃣ Run data collection and modeling
+#### 2️⃣ Run data collection and modeling
 python lets_do_it.py
 
 ```bash
