@@ -73,8 +73,10 @@ REDDIT_USER_AGENT
 ```bash
 pip install -r requirements.txt
 
+```bash
 ### 2️⃣ Run data collection and modeling
 python lets_do_it.py
 
+```bash
 ### 3️⃣ Launch Streamlit dashboard
 streamlit run app.py
