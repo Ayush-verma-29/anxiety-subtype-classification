@@ -33,3 +33,46 @@ The system uses Reddit data, transformer-based text embeddings, sentiment analys
 
 ##  Project Structure
 
+├── data/
+│ ├── raw/ # Raw Reddit data
+│ └── processed/ # Cleaned data and final predictions
+│
+├── features/
+│ └── sbert_embeddings_all.npy
+│
+├── models/
+│ ├── lr_model.pkl # Logistic Regression model
+│ └── svm_model.pkl # SVM model (optional)
+│
+├── lets_do_it.py # Main data processing & modeling script
+├── app.py # Streamlit dashboard
+├── requirements.txt
+├── README.md
+
+##  Reddit API Setup (Important)
+
+Create a Reddit app at:
+https://www.reddit.com/prefs/apps
+
+App settings:
+- App type: **script**
+- Redirect URI: `http://localhost:8080`
+
+Store credentials securely using environment variables or Google Colab Secrets:
+REDDIT_CLIENT_ID
+REDDIT_SECRET
+REDDIT_USER_AGENT
+
+⚠️ Never hard-code credentials in code.
+
+---
+
+## 🚀 How to Run the Project
+
+### 1️⃣ Install dependencies
+```bash
+pip install -r requirements.txt
+
+python lets_do_it.py
+
+streamlit run app.py
