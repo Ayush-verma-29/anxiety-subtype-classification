@@ -11,7 +11,7 @@ The system uses Reddit data, transformer-based text embeddings, sentiment analys
 
 ---
 
-## ?? Project Objectives
+##  Project Objectives
 
 - Collect anxiety-related posts from Reddit using the Reddit API
 - Apply weak supervision for initial subtype labeling
@@ -23,7 +23,7 @@ The system uses Reddit data, transformer-based text embeddings, sentiment analys
 
 ---
 
-## ?? Type of Analytics Used
+##  Type of Analytics Used
 
 - **Descriptive Analytics**: Dataset statistics, sentiment analysis, keyword frequency
 - **Diagnostic Analytics**: Confusion matrix, error analysis
@@ -31,5 +31,5 @@ The system uses Reddit data, transformer-based text embeddings, sentiment analys
 
 ---
 
-## ??? Project Structure
+##  Project Structure
 
